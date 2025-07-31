@@ -68,3 +68,13 @@ We fine-tuned a **pretrained Vision Transformer** model (`google/vit-base-patch1
 3. The app will display the predicted user name
 
 You can also test with the sample signatures in the `new_test/` folder.
+
+🙋‍♂️ Author
+Rudraksh Kaushik
+Data Science and AI Enthusiast
+
+GitHub: RudrakshOP
+
+LinkedIn: (https://www.linkedin.com/in/rudraksh-kaushik-17a2831a3/)
+
+
