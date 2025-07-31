@@ -29,4 +29,42 @@ We fine-tuned a **pretrained Vision Transformer** model (`google/vit-base-patch1
 - Dataset Directory: `new_test/`
 - Each user has a dedicated subfolder with their signature images
 
-Example:
+## 🔄 Preprocessing
+
+- Images resized to 224x224
+- Normalized using ImageNet mean and std
+- Converted to PyTorch tensors
+- Applied data augmentation:
+  - Random rotation
+  - Horizontal/Vertical flips
+  - Color jittering
+  - Scaling
+
+---
+
+## 🧠 Model Details
+
+- Base model: Vision Transformer (ViT)
+- Pretrained on ImageNet
+- Fine-tuned for 16-class classification (one for each user)
+- Loss Function: CrossEntropyLoss
+- Optimizer: AdamW
+- Framework: PyTorch + Hugging Face Transformers
+
+---
+
+## 📊 Performance
+
+- Achieved high accuracy on the test set
+- Verified using real signature images in the `new_test` folder
+- Most users are correctly identified; very few misclassifications due to similar writing patterns
+
+---
+
+## 🧪 How to Use
+
+1. Open the Streamlit app from the link above
+2. Upload a signature image (`.jpg`, `.jpeg`, `.png`)
+3. The app will display the predicted user name
+
+You can also test with the sample signatures in the `new_test/` folder.
