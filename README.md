@@ -64,7 +64,7 @@ We fine-tuned a **pretrained Vision Transformer** model (`google/vit-base-patch1
 ## 🧪 How to Use
 
 1. Open the Streamlit app from the link above
-2. Upload a signature image (`.jpg`, `.jpeg`, `.png`)
+2. Upload a signature image (`.jpg`, `.jpeg`, `.png`,`.bmp`)
 3. The app will display the predicted user name
 
 You can also test with the sample signatures in the `new_test/` folder.
