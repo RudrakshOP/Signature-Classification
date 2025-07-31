@@ -8,7 +8,7 @@ This is a deep learning-based signature recognition system that identifies the p
 
 🎯 Try the live app here:  
 👉 [https://your-streamlit-link.streamlit.app  ](https://signature-classification-hbkjpqtefgn9tqkwgspqhf.streamlit.app/)
-*(Replace this with your actual Streamlit link)*
+
 
 Upload a signature image and instantly get the predicted user's name!
 
